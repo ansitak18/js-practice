@@ -8,7 +8,7 @@ let address = null;
 //number => 2 to power 53 
 //bigint 
 //string => " " or ' '
-//null => stand-alone value (empty value)
+//null => stand-alone value (empty value) => typeof of null is Object {imp wrt to interview}
 //boolean => true/false
 //undefined => value not defined 
 //symbol => used for uniqueness 

@@ -1,7 +1,7 @@
 const accountId = 12309
 let accountEmail = 'billu@google.com'
 //var accountCity = 'Jharkhand'
-let accountDate
+let accountDate  //it will show value as undefined 
 
 /* 
 Using var is not a good practice because it changes the values inside scopes {} also if the name of the variable is same 
