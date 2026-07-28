@@ -41,7 +41,7 @@ console.log(typeof stringNumber)
 
 
 //console.log(true) //true
-//console.log(+true) //1 
+//console.log(+true) //1 => unary plus 
  */
 
 
