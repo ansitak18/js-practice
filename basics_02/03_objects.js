@@ -69,8 +69,10 @@ JSUser.greetingTwo = function(){
 
 console.log(JSUser.greeting);//[Function (anonymous)]
 
-console.log(JSUser.greeting()); //Hello JS user 
-                                //undefined
-console.log(JSUser.greetingTwo());  //Hello JS user, Chirkut 
-                                    //undefined
+console.log(JSUser.greeting());
+//Hello JS user 
+//undefined
+console.log(JSUser.greetingTwo());  
+//Hello JS user, Chirkut 
+//undefined
 
