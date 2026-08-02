@@ -33,7 +33,7 @@ console.log("Result: ", result);
 
 
 function loginUserMessage(userName = "Loo"){ //assigning value here ignores the if (nested) block as value is already given 
-    if (userName === undefined) {
+    if (userName === undefined) {            //if (!username) => both are similar
         console.log("Please enter a username ");
         return
     }
