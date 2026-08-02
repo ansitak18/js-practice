@@ -43,7 +43,7 @@ function handleObject(anyObject){
 handleObject(users) //function called 
 
 /*
-We can also create objects like this :
+Passing an object directly into the function at the same like this :
 
 handleObject({
     username: "sam",
@@ -61,5 +61,6 @@ const newArray = [200, 500, 670, 890]
 function returnSecondValue(getArray){
     return getArray[2]
 }
-console.log(returnSecondValue(newArray));
-console.log(returnSecondValue([300, 789, 650, 456]));
+
+console.log(returnSecondValue(newArray)); //670
+console.log(returnSecondValue([300, 789, 650, 456])); //650
