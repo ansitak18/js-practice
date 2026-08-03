@@ -99,6 +99,16 @@ console.log(addTwoNums(7, 6, 9)); //22
 // getting value using return keyword => Explicit return
 // getting value without using return keyword => Implicit return (here parentheses can be used for code readability)
 
-//returning an object without using return keyword
+//returning an object without using return keyword with arrow function
+
 const userCalled = () => ({username: "Chirkut"}) //object {} is wrapped inside parentheses
-console.log(userCalled());
+console.log(userCalled()); // {username: 'Chirkut'}
+
+
+//Arrow functionFirst parentheses() for function definition and second parentheses() for execution/calling of a function 
+//as we wrapped the function definition inside () which is the first parentheses : example --> function cartoon() { }-->is wrapped inside ()-->(function cartoon(){ }) and it becomes ()()
+//const myArray = [4, 5, 6, 7, 8]
+//myArray.forEach(() => {})
+//OR
+//myArray.forEach(() => ())
+    
